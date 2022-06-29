@@ -1,0 +1,39 @@
+#package-list {
+  .package-card {
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #fff, #fff6e7);
+    border: 0;
+    text-align: center;
+    min-height: 50vh;
+
+    .package-number {
+      border: 2px solid #ec9d21;
+      border-radius: 50%;
+      background-color: #fdfdfd;
+      padding: 1px 12px;
+      &.image{
+        padding: 1px 10px 6px 10px;
+      }
+    }
+    .school-list{
+      list-style: none;
+      text-align: left;
+      margin-bottom: 30px;
+      li{
+        margin-bottom: 10px;
+      }
+    }
+    .book-now-btn{
+      position: absolute;
+      bottom: 10px;
+      left: 28%;
+    }
+
+
+
+  }
+  .bottom-package{
+    border-radius: 10px;
+    border: 1px solid #007AE1;
+  }
+}
