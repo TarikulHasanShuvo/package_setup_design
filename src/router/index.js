@@ -11,14 +11,14 @@ const routes = [
     component: PackageRegister
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/package-list',
+    name: 'packageList',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PackageList.vue')
   },
   {
-    path: '/package-list',
-    name: 'package-list',
-    component: () => import(/* webpackChunkName: "about" */ '../views/PackageList.vue')
+    path: '/package-checkout',
+    name: 'packageCheckout',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PackageCheckout.vue')
   }
 ]
 
