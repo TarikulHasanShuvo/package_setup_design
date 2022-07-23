@@ -19,6 +19,11 @@ const routes = [
     path: '/package-checkout',
     name: 'packageCheckout',
     component: () => import(/* webpackChunkName: "about" */ '../views/PackageCheckout.vue')
+  },
+  {
+    path: '/application-progress',
+    name: 'applicationProgress',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ApplicationProgress.vue')
   }
 ]
 
