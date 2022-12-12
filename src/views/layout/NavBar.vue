@@ -1,5 +1,6 @@
 <template>
-  <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light  static-top header_area bg-light" >
+<div class="bg-light">
+  <nav id="nav-bar" class="container navbar navbar-expand-lg navbar-light  static-top header_area" >
     <router-link class="navbar-brand" to="/">
       <img src="../../assets/high-school/logo.png" height="35" alt="">
     </router-link>
@@ -53,6 +54,7 @@
 
     </div>
   </nav>
+</div>
 </template>
 
 <script>
