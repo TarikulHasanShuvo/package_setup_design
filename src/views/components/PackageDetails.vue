@@ -64,13 +64,26 @@ export default {
         "Required Documents 1",
         "Required Documents 2",
       ],
-      programsOffered : [
+      programsOffered: [
         "Programs Offered 1",
         "Programs Offered 2",
         "Programs Offered 3",
       ]
     }
   },
+  mounted() {
+    function taskOne() {
+      let a = 1;
+      setTimeout(() => {
+        a = 4 + 3
+        return a
+      }, 1000)
+      return a
+    }
+
+    let b = taskOne()
+    console.log(b)
+  }
 }
 </script>
 
