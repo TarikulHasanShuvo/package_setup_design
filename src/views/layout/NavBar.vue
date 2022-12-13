@@ -17,16 +17,16 @@
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/"><img src="../../assets/high-school/home.svg" alt="">Home</router-link>
+          <router-link class="nav-link d-flex my-auto" to="/"><img src="../../assets/high-school/home.svg" alt="">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/"><img src="../../assets/high-school/users.svg" alt="">Connections</router-link>
+          <router-link class="nav-link d-flex my-auto" to="/"><img src="../../assets/high-school/users.svg" alt="">Connections</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/"><img src="../../assets/high-school/message.svg" alt="">Messages</router-link>
+          <router-link class="nav-link d-flex my-auto" to="/"><img src="../../assets/high-school/message.svg" alt="">Messages</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/"><img src="../../assets/high-school/bell.svg" alt="">Notifications</router-link>
+          <router-link class="nav-link d-flex my-auto" to="/"><img src="../../assets/high-school/bell.svg" alt="">Notifications</router-link>
         </li>
         <li class="nav-item dropdown last-item">
           <a class="nav-link dropdown-toggle last-li" href="#" id="navbarDropdown" role="button"
@@ -35,12 +35,12 @@
           </a>
           <div class="dropdown-menu dropdown-menu-right custom-drop-down"
                aria-labelledby="navbarDropdown">
-            <div class="profile-title dropdown-item">
-              <div class="profile-image-d">
-                <img src="https://platform.woostudy.in/images/avatar.jpg" class="profile-image" width="40" height="40" alt="">
+            <div class="profile-title dropdown-item text-center">
+              <div class="profile-image-d pb-3">
+                <img src="https://platform.woostudy.in/images/avatar.jpg" class="profile-image" width="60" height="60" alt="">
               </div>
               <div class="profile-user">
-                <h2>Shuvo</h2>
+                <h6>Shuvo</h6>
                 <p>shuvo@gmail.com</p>
                 <p class="view-profile">
                   <router-link to>View Your Profile</router-link>
@@ -63,6 +63,13 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+#nav-bar {
+.nav-item {
+  margin-right: 10px;
+img {
+  margin-right: 7px;
+}
+}
+}
 </style>
