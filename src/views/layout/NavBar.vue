@@ -1,5 +1,5 @@
 <template>
-<div class="bg-light">
+<div class="bg-white">
   <nav id="nav-bar" class="container navbar navbar-expand-lg navbar-light  static-top header_area" >
     <router-link class="navbar-brand" to="/">
       <img src="../../assets/high-school/logo.png" height="35" alt="">
@@ -27,6 +27,9 @@
         </li>
         <li class="nav-item">
           <router-link class="nav-link d-flex my-auto" to="/"><img src="../../assets/high-school/bell.svg" alt="">Notifications</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link d-flex my-auto" to="/social-media"><img src="../../assets/high-school/bell.svg" alt="">Social Media</router-link>
         </li>
         <li class="nav-item dropdown last-item">
           <a class="nav-link dropdown-toggle last-li" href="#" id="navbarDropdown" role="button"

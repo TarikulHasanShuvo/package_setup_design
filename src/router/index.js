@@ -24,6 +24,11 @@ const routes = [
     path: '/application-progress',
     name: 'applicationProgress',
     component: () => import(/* webpackChunkName: "about" */ '../views/ApplicationProgress.vue')
+  },
+  {
+    path: '/social-media',
+    name: 'SocialMedia',
+    component: () => import(/* webpackChunkName: "about" */ '../views/social-media/SocialMedia.vue')
   }
 ]
 
